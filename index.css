@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(21, 32, 43);
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 7rem;
+  margin-left: 2rem;
+  max-width: fit-content;
+}
+
+.elements {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.elements a {
+  color: rgb(255, 255, 255);
+
+  list-style: none;
+  text-decoration: none;
+}
+
+.twittear-btn {
+  all: unset;
+
+  background-color: rgb(29, 155, 240);
+
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  border-radius: 0.5rem;
+
+  cursor: pointer;
+}
+
+.rigth {
+  margin-right: 2rem;
+}
+
+.search-btn {
+  all: unset;
+
+  background-color: rgb(39, 50, 65);
+
+  margin-top: 1rem;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 5rem;
+  padding-left: 1rem;
+
+  border-radius: 0.5rem;
+}
+
+.rigth-container {
+  background-color: rgb(30, 38, 51);
+
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+
+  border-radius: 5%;
+
+  margin-top: 1rem;
+}
+
+.child-container {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.child-container div {
+  padding-bottom: 1rem;
+}
+
+.middle {
+  max-width: 30rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.inicio-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+.inicio-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+
+.happ-input {
+  all: unset;
+
+  background-color: rgb(39, 50, 65);
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 5rem;
+  padding-left: 1rem;
+
+  margin-left: 1rem;
+
+  border-radius: 0.5rem;
+}
+
+.inicio-input i {
+  margin-left: 0.26rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.feed {
+  margin-top: 1rem;
+  background-color: rgb(39, 50, 65);
+  border-radius: 0.5rem;
+  height: 70vh;
+}
+
+.news {
+  padding: 1rem;
+}
